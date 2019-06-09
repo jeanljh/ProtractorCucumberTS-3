@@ -1,0 +1,402 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Flights tab",
+    "line": 1,
+    "id": "flights-tab",
+    "tags": [],
+    "uri": "features\\flightsTab.feature",
+    "elements": [
+      {
+        "id": "flights-tab;test-visibility-of-fields-for-round-trip-and-oneway-options",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Test visibility of fields for Round trip and Oneway options",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6182000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I click Flights tab and expand Advanced Options",
+            "match": {
+              "location": "js_files\\test_suites\\flightsTab.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 403000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "Round trip radio button is selected by default",
+            "match": {
+              "location": "js_files\\test_suites\\flightsTab.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 115000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Return date text, Return from and to text fields are visible",
+            "match": {
+              "location": "js_files\\test_suites\\flightsTab.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 168000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click Oneway radio button",
+            "match": {
+              "location": "js_files\\test_suites\\flightsTab.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 160000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Oneway radio button is selected",
+            "match": {
+              "location": "js_files\\test_suites\\flightsTab.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Return date text, Return from and to text fields are not visible",
+            "match": {
+              "location": "js_files\\test_suites\\flightsTab.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 150000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "flights-tab;test-cabin-class-and-travelers-options",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Test cabin class and travelers options",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3298000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I select 'Economy', 2, 5, 1, 1",
+            "match": {
+              "location": "js_files\\test_suites\\flightsTab.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1754000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I can see these value are selected on travelers fields",
+            "match": {
+              "location": "js_files\\test_suites\\flightsTab.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "flights-tab;test-cabin-class-and-travelers-options",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Test cabin class and travelers options",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2953000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I select 'PremiumEconomy', 3, 1, 2, 1",
+            "match": {
+              "location": "js_files\\test_suites\\flightsTab.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1391000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I can see these value are selected on travelers fields",
+            "match": {
+              "location": "js_files\\test_suites\\flightsTab.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "flights-tab;test-cabin-class-and-travelers-options",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Test cabin class and travelers options",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2354000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I select 'Business', 4, 0, 1, 3",
+            "match": {
+              "location": "js_files\\test_suites\\flightsTab.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I can see these value are selected on travelers fields",
+            "match": {
+              "location": "js_files\\test_suites\\flightsTab.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "flights-tab;test-cabin-class-and-travelers-options",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Test cabin class and travelers options",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2220000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I select 'First', 1, 5, 1, 1",
+            "match": {
+              "location": "js_files\\test_suites\\flightsTab.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1315000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I can see these value are selected on travelers fields",
+            "match": {
+              "location": "js_files\\test_suites\\flightsTab.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

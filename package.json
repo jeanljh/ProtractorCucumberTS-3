@@ -1,0 +1,27 @@
+{
+  "name": "cheapflightsfares",
+  "version": "1.0.0",
+  "description": "test cheapflightsfares",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor js_files/config.js",
+    "pretest": "tsc",
+    "protractor": "./node_modules/protractor/built/cli.js",
+    "update": "./node_modules/.bin/webdriver-manager update"
+  },
+  "dependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/cucumber": "^4.0.5",
+    "@types/node": "^12.0.7",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^5.1.0",
+    "cucumber-html-reporter": "^5.0.0",
+    "protractor": "^5.4.2",
+    "protractor-cucumber-framework": "^6.1.2",
+    "ts-node": "^8.2.0",
+    "typescript": "^3.5.1"
+  },
+  "author": "jean",
+  "license": "ISC"
+}
